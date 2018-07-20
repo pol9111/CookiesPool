@@ -21,7 +21,7 @@ Get_Cookies.py
 
 https://m.weibo.cn   这里有个标签没了
 
-导致cookies.py第66匹配不到
+导致cookies.py第66行匹配不到
 
 把第66行的匹配规则换成(By.CLASS_NAME, 'patt-shadow')
 
