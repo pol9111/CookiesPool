@@ -4,17 +4,30 @@
 
 ## 本程序使用方法
 
+```
 先运行cookiespool下的importer. 添加微博账号
+
 例如13241234430----password
+
 如需更换redis数据库在db.py 第14行最后加入decode_responses=True, db=15)
 
+
 获取cookies
+
 Get_Cookies.py
 
+
 必须修改
-https://m.weibo.cn这里有个标签没了
+
+https://m.weibo.cn   这里有个标签没了
+
 导致cookies.py第66匹配不到
+
 把第66行的匹配规则换成(By.CLASS_NAME, 'patt-shadow')
+
+```
+
+
 
 
 ## 以下内容是出自静觅
